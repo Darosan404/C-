@@ -1,0 +1,21 @@
+
+
+#ifndef _TREEEXCEPTION
+#define _TREEEXCEPTION
+#include <stdexcept> 
+#include <string> 
+
+
+using namespace std;
+
+
+class TreeException : public logic_error
+{
+
+public:
+	TreeException(const string& message = "");
+}; 
+
+
+#endif
+
